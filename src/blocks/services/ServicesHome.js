@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Swiper from 'swiper';
+import One from '../../assets/img/placeholder/extensions.jpg'
+import Two from '../../assets/img/placeholder/blonding.jpg'
+import Three from '../../assets/img/placeholder/others.jpg'
 
 class ServicesHome extends Component {
     componentDidMount() {
@@ -38,14 +41,14 @@ class ServicesHome extends Component {
                         <div className="adv-swiper-wrapper services-items clearfix">
                             <a title="Face & Body" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/services-inside" }>
                                 <div className="services-item-content">
-                                    <h3 className="services-item-t-head">Face & Body</h3>
+                                    <h3 className="services-item-t-head" style={{fontWeight:"500"}}>Extensions</h3>
 
                                     <span className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto link-no-space">read more</span>
                                 </div>
 
                                 <div className="img object-fit">
                                     <div className="object-fit-cover">
-                                        <img src="assets/img/placeholder/780x500.jpg" alt="Face & Body" />
+                                        <img src={One} alt="Face & Body" />
                                     </div>
                                 </div>
 
@@ -54,14 +57,14 @@ class ServicesHome extends Component {
 
                             <a title="Hair Treatments" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/services-inside" }>
                                 <div className="services-item-content">
-                                    <h3 className="services-item-t-head">Hair Treatments</h3>
+                                    <h3 className="services-item-t-head">Blonding</h3>
 
                                     <span className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto link-no-space">read more</span>
                                 </div>
 
                                 <div className="img object-fit">
                                     <div className="object-fit-cover">
-                                        <img src="assets/img/placeholder/780x500.jpg" alt="Hair Treatments" />
+                                        <img src={Two} alt="Hair Treatments" />
                                     </div>
                                 </div>
 
@@ -70,21 +73,21 @@ class ServicesHome extends Component {
 
                             <a title="Hands & Feets" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/services-inside" }>
                                 <div className="services-item-content">
-                                    <h3 className="services-item-t-head">Hands & Feets</h3>
+                                    <h3 className="services-item-t-head">...And More</h3>
 
                                     <span className="btn btn-lg btn-before-dot btn-link border-0 p-0 min-w-auto link-no-space">read more</span>
                                 </div>
 
                                 <div className="img object-fit">
                                     <div className="object-fit-cover">
-                                        <img src="assets/img/placeholder/780x500.jpg" alt="Hands & Feets" />
+                                        <img src={Three} alt="Hands & Feets" />
                                     </div>
                                 </div>
 
                                 <div className="img-bg-color"></div>
                             </a>
 
-                            <a title="Haircuts for Men" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/services-inside" }>
+                            {/* <a title="Haircuts for Men" className="adv-swiper-slide services-item" href={ process.env.PUBLIC_URL + "/services-inside" }>
                                 <div className="services-item-content">
                                     <h3 className="services-item-t-head">Haircuts for Men</h3>
 
@@ -98,7 +101,7 @@ class ServicesHome extends Component {
                                 </div>
 
                                 <div className="img-bg-color"></div>
-                            </a>
+                            </a> */}
                         </div>
 
                         <div className="adv-2-swiper-button-prev">

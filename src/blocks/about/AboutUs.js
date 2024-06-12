@@ -7,7 +7,9 @@ const AboutsUs = () => {
                 <div className="row gutter-width-sm">
                     <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12">
                         <div className="title">
-                            <h2>We are born in Europe, raised in New York. Mykery creates luxurious makeup and hairstyles that is easy to take care of everyday.</h2>
+                            <h2>Hello Beautiful!</h2>
+                            <h4>Welcome to Layers,LLC, Where the possibilities are endless!</h4>
+                            <h4>If you can dream it, it can be acheived.</h4>
                         </div>
                     </div>
                 </div>
@@ -15,7 +17,7 @@ const AboutsUs = () => {
                 <div className="row gutter-width-sm justify-content-end">
                     <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12">
                         <div className="description">
-                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+                            <p>Layers, LLC is devote to providing exceptional service with high quality products from an expertly trained stylist. I serve women that look to elevate their appearance and expect luxury</p>
                         </div>
                     </div>
                 </div>

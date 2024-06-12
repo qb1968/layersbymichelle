@@ -4,11 +4,13 @@ import Logo1 from '../../assets/img/logo/logo2.jpeg'
 
 const PageTitleHome = () => {
     return (
-        <section id="page-title" className="block with-img" style={{ backgroundImage: `url(${Logo1})` }}>
+        <section id="page-title" className="block with-img" >
             <div className="wrapper text-center d-flex">
                 <div className="align-self-center w-100">
+                    
                     <div className="title">
                         {/* <h1 className="large">Mykery Beauty Salon</h1> */}
+                        <img src={Logo1} style={{ width: 500, height: 500 }} />
                     </div>
 
                     {/* <div className="description spacer p-top-lg">

@@ -42,13 +42,13 @@ const Home = () => {
                     <div className="clearfix">
                         <PageTitleHome />
 
-                        <ContactsUs />
+                        {/* <ContactsUs /> */}
 
                         <ServicesHome />
 
                         <AboutsUs />
 
-                        <div id="img" className="block spacer p-top-xl">
+                        {/* <div id="img" className="block spacer p-top-xl">
                             <div className="img-no-wrap-1 img-gray">
                                 <div className="img object-fit">
                                     <div className="object-fit-cover">
@@ -60,7 +60,7 @@ const Home = () => {
 
                         <News />
 
-                        <Newsletter />
+                        <Newsletter /> */}
                     </div>
                 </div>
             </main>
