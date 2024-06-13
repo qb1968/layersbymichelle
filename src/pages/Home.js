@@ -8,7 +8,7 @@ import Footer from '../blocks/footer/Footer';
 import PageTitleHome from '../blocks/page-title/PageTitleHome';
 
 import ServicesHome from '../blocks/services/ServicesHome';
-import AboutsUs from '../blocks/about/AboutUs';
+
 
 
 
@@ -45,7 +45,7 @@ const Home = () => {
 
                         <ServicesHome />
 
-                        <AboutsUs />
+                        {/* <AboutsUs /> */}
 
                         {/* <div id="img" className="block spacer p-top-xl">
                             <div className="img-no-wrap-1 img-gray">
