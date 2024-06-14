@@ -10,35 +10,43 @@ const PageTitleHome = () => {
             <div className="title">
               {/* <h1 className="large">Mykery Beauty Salon</h1> */}{" "}
               {/* <section id="about-us" className="block spacer p-top-xl"> */}
-                <div className="wrapper">
-                  <div className="row gutter-width-sm">
-                    <div className="col-xl-4 col-lg-6 col-md-10 col-sm-10">
-                      <div className="title">
-                        <h2>Hello Beautiful!</h2>
-                        <h4>
-                          Welcome to Layers,LLC, Where the possibilities are
-                          endless!
-                        </h4>
-                        <h4>If you can dream it, it can be acheived.</h4>
-                      </div>
-                    </div>
-                  </div>
-                    <img src={Logo1} alt="" style={{ width: 450, height: 450 }} />
-                  <div className="row gutter-width-sm justify-content-end">
-                    <div className="col-xl-4 col-lg-5 col-md-10 col-sm-10">
-                      <div className="description">
-                        <p>
-                          Layers, LLC is devoted to providing exceptional service
-                          with high quality products from an expertly trained
-                          stylist. I serve women that look to elevate their
-                          appearance and expect luxury
-                        </p>
-                      </div>
+              <div className="wrapper">
+                <div className="row gutter-width-sm justify-content-start">
+                  <div className="col-xl-4 col-lg-8 col-md-12 col-sm-12">
+                    <div className="title">
+                      <h1 style={{ color: "black", fontWeight: "bold" }}>
+                        Hello Beautiful!
+                      </h1>
+                      <p style={{ color: "black", fontWeight: "bold" }}>
+                        Welcome to Layers, LLC
+                      </p>
+                      <p style={{ color: "black", fontWeight: "bold" }}>
+                        Where the possibilities are endless!
+                      </p>
+                      <p style={{ color: "black", fontWeight: "bold" }}>
+                        If you can dream it, it can be acheived.
+                      </p>
                     </div>
                   </div>
                 </div>
+                <img src={Logo1} alt="" style={{ width: 400, height: 400 }} />
+                <div className="row gutter-width-sm justify-content-end">
+                  <div className="col-xl-4 col-lg-5 col-md-12 col-sm-12">
+                    <div className="description">
+                      <h5 style={{ color: "black", fontWeight: "bold" }}>
+                        Layers, LLC is devoted to providing exceptional service
+                        with high quality products from an expertly trained
+                        stylist.
+                      </h5>
+                      <h5 style={{ color: "black", fontWeight: "bold" }}>
+                        I serve women that look to elevate their appearance and
+                        expect luxury
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
               {/* </section> */}
-             
             </div>
 
             {/* <div className="description spacer p-top-lg">

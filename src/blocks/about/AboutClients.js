@@ -1,4 +1,10 @@
 import React from 'react';
+import IBE from '../../assets/img/placeholder/IBE-Logo-Footer-2.png'
+import Barb from '../../assets/img/placeholder/barbicide.png'
+import El from '../../assets/img/placeholder/elevate.jpg'
+import K from '../../assets/img/placeholder/k18-1.png'
+import Ol from '../../assets/img/placeholder/olaplex-logo.jpg'
+import Hair from '../../assets/img/placeholder/hairlocs.jpg'
 
 const AboutClients = () => {
     return (
@@ -8,37 +14,37 @@ const AboutClients = () => {
                     <div className="clients-items">
                         <div className="clients-item">
                             <div className="clients-item-content">
-                                <img src="assets/img/demo/24_img.png" alt="Balkan" />
+                                <img src={IBE} alt="Balkan" />
                             </div>
                         </div>
 
                         <div className="clients-item">
                             <div className="clients-item-content">
-                                <img src="assets/img/demo/25_img.png" alt="Adveits" />
+                                <img src={Barb} alt="Adveits" />
                             </div>
                         </div>
 
                         <div className="clients-item">
                             <div className="clients-item-content">
-                                <img src="assets/img/demo/26_img.png" alt="Swiger" />
+                                <img src={El} alt="Swiger" />
                             </div>
                         </div>
 
                         <div className="clients-item">
                             <div className="clients-item-content">
-                                <img src="assets/img/demo/27_img.png" alt="The mandala community" />
+                                <img src={K} />
                             </div>
                         </div>
 
                         <div className="clients-item">
                             <div className="clients-item-content">
-                                <img src="assets/img/demo/24_img.png" alt="Balkan" />
+                                <img src={Ol} />
                             </div>
                         </div>
 
                         <div className="clients-item">
                             <div className="clients-item-content">
-                                <img src="assets/img/demo/25_img.png" alt="Adveits" />
+                                <img src={Hair} alt="Adveits" />
                             </div>
                         </div>
                     </div>

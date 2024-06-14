@@ -85,14 +85,14 @@ class MenuModal extends Component {
                                     <ModalMenuSecondary />
 
                                     <div className="modal-text">
-                                        <p>© 2020 Beauty Salon JS Template by Adveits</p>
+                                        <p>© 2024 Allison Web Consultants</p>
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="modal-footer">
+                            {/* <div className="modal-footer">
                                 <ModalMenuLanguages />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </Modal>

@@ -25,7 +25,7 @@ const Header = ( { logoColor } ) => {
 
                     <div className="header-right d-flex justify-content-end">
                         <div className="d-flex align-items-center">
-                            <SearchModal />
+                            {/* <SearchModal /> */}
 
                             <MenuModal />
                         </div>

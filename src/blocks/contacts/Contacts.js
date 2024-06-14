@@ -6,36 +6,41 @@ const Contacts = () => {
             <div className="contacts-items">
                 <div className="contacts-item">
                     <div className="contacts-item-description">
-                        <p>
-                            <a href="mailto:company@domain.com">company@domain.com</a>
-                        </p>
-                    </div>
-
-                    <div className="contacts-item-title">
+                        <div className="contacts-item-title">
                         <h6>Email</h6>
                     </div>
-                </div>
-
-                <div className="contacts-item">
-                    <div className="contacts-item-description">
-                        <p>36 M St, New York, 152, USA</p>
-                    </div>
-
-                    <div className="contacts-item-title">
-                        <h6>Address</h6>
-                    </div>
-                </div>
-
-                <div className="contacts-item">
-                    <div className="contacts-item-description">
                         <p>
-                            <a href="tel:005053255350539">0050 (5325) 535-0539</a>
+                            <a href="mailto:company@domain.com">michelle@layersbymichelle.com</a>
                         </p>
                     </div>
 
-                    <div className="contacts-item-title">
+                    
+                </div>
+
+                <div className="contacts-item">
+                    <div className="contacts-item-description">
+                        <div className="contacts-item-title">
+                        <h6>Address</h6>
+                    </div>
+                        <p>105 West Corbin St  </p>
+                        <p>Hillsborough, NC 27278</p>
+                        <p>Suite 104 Unit 7</p>
+                    </div>
+
+                    
+                </div>
+
+                <div className="contacts-item">
+                    <div className="contacts-item-description">
+                        <div className="contacts-item-title">
                         <h6>Phone</h6>
                     </div>
+                        <p>
+                            <a href="">(469)307-7183</a>
+                        </p>
+                    </div>
+
+                    
                 </div>
             </div>
         </div>

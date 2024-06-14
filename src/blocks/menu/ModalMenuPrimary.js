@@ -20,9 +20,9 @@ const ModalMenuPrimary = () => {
                     <a title="About us" href={ process.env.PUBLIC_URL + "/about-us" }>About us</a>
                 </li>
 
-                <li className={ "nav-item" + (window.location.pathname === '/news' ? " current-nav-item" : "") }>
+                {/* <li className={ "nav-item" + (window.location.pathname === '/news' ? " current-nav-item" : "") }>
                     <a title="News" href={ process.env.PUBLIC_URL + "/news" }>News</a>
-                </li>
+                </li> */}
 
                 <li className={ "nav-item" + (window.location.pathname === '/contacts' ? " current-nav-item" : "") }>
                     <a title="Contacts" href={ process.env.PUBLIC_URL + "/contacts" }>Contacts</a>

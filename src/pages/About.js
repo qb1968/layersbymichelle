@@ -45,9 +45,9 @@ const About = () => {
                             <div className="clearfix">
                                 <AboutImg />
 
-                                <AboutsUs />
+                                {/* <AboutsUs /> */}
 
-                                <AboutOurTeam />
+                                {/* <AboutOurTeam /> */}
 
                                 <AboutReviews />
 
