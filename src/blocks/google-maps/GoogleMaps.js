@@ -28,7 +28,7 @@ class Maps extends React.Component {
                 } );
 
                 var icon = {
-                    url: '../../assets/img/demo/16_img.png',
+                    url: '',
                     size: new window.google.maps.Size( 112, 118 )
                 };
 
